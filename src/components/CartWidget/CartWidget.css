@@ -1,0 +1,6 @@
+.containerCart{
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}

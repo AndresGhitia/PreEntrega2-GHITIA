@@ -1,0 +1,55 @@
+.CardsContainer {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.Card {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 
+  0 14px 28px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: rgb(242, 242, 242);
+
+}
+
+.Card:hover{
+  box-shadow: 
+  0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.CardImg {
+  padding-top: 15px;
+  width: 100%;
+  object-fit:contain;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.CardTxt {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OptionCard {
+  display: block;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.OptionCard:hover {
+  background-color: #3E8E41;
+}

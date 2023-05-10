@@ -1,0 +1,54 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.Controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00509d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.Number {
+  font-size: 20px;
+  font-weight: bold;
+  margin:  1rem;
+}
+
+.ButtonCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00509d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.ButtonCart:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+}

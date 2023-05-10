@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  
+  .ContainerLogo {
+    flex-grow: 1;
+    max-width: 200px;
+  }
+  
+  .ContainerNavLinks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+  }
+  
+  .Option {
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .ActiveOption {
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: coral;
+  }
+  
+  .ContainerCart {
+    display: flex;
+    align-items: center;
+  }
+  
